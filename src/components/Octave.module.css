@@ -1,0 +1,37 @@
+.Octave
+{
+    position: relative;
+    height: var(--clearedKeyHeight);
+}
+
+.blockOfClearedKeys
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 6px;
+}
+
+.blockOfAlteredKeys
+{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 95px;
+    height: var(--alteredKeyHeight);
+    gap: 192px;
+}
+
+.firstPartOfAlteredKeys
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 86px;
+}
+
+.secondPartOfAlteredKeys
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 86px;
+}

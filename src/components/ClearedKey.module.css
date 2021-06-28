@@ -1,0 +1,22 @@
+.ClearedKey
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 90px;
+    width: var(--clearedKeyWidth);
+    height: var(--clearedKeyHeight);
+    color: #D8D8D8;
+    background: white;
+    border-radius: 0 0 3px 3px;
+    outline: none;
+    border: none;
+    font: inherit;
+    text-align: justify;
+}
+
+.ClearedKey:active
+{
+    background: linear-gradient(180deg, #FFFFFF 0%, #F3F3F3 100%);
+}
