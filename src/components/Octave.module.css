@@ -2,13 +2,8 @@
 {
     position: relative;
     height: var(--clearedKeyHeight);
-}
-
-.blockOfClearedKeys
-{
     display: flex;
     flex-direction: row;
-    column-gap: 6px;
 }
 
 .blockOfAlteredKeys

@@ -19,3 +19,33 @@
 {
     background: linear-gradient(180deg, #414141 0%, #3C3C3C 100%);
 }
+
+.CSharp
+{
+    position: absolute;
+    left: 96px;
+}
+
+.DSharp
+{
+    position: absolute;
+    left: 262px;
+}
+
+.FSharp
+{
+    position: absolute;
+    left: 531px;
+}
+
+.GSharp
+{
+    position: absolute;
+    left: 688px;
+}
+
+.ASharp
+{
+    position: absolute;
+    left: 845px;
+}

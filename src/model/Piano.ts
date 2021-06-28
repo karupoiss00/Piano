@@ -19,7 +19,7 @@ export const Piano: Octave = {
                 sampleName: "c1.mp3"
             },
             {
-                keyName: "C#",
+                keyName: "CSharp",
                 keyBind: "S",
                 keyType: "ALTERED",
                 sampleName: "C1D.mp3"
@@ -31,7 +31,7 @@ export const Piano: Octave = {
                 sampleName: "d1.mp3"
             },
             {
-                keyName: "D#",
+                keyName: "DSharp",
                 keyBind: "D",
                 keyType: "ALTERED",
                 sampleName: "D1D.mp3"
@@ -49,7 +49,7 @@ export const Piano: Octave = {
                 sampleName: "f1.mp3"
             },
             {
-                keyName: "F#",
+                keyName: "FSharp",
                 keyBind: "G",
                 keyType: "ALTERED",
                 sampleName: "F1D.mp3"
@@ -61,7 +61,7 @@ export const Piano: Octave = {
                 sampleName: "g1.mp3"
             },
             {
-                keyName: "G#",
+                keyName: "GSharp",
                 keyBind: "H",
                 keyType: "ALTERED",
                 sampleName: "G1D.mp3"
@@ -73,7 +73,7 @@ export const Piano: Octave = {
                 sampleName: "a1.mp3"
             },
             {
-                keyName: "A#",
+                keyName: "ASharp",
                 keyBind: "J",
                 keyType: "ALTERED",
                 sampleName: "A1D.mp3"
