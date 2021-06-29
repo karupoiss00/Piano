@@ -4,6 +4,7 @@
     height: var(--clearedKeyHeight);
     display: flex;
     flex-direction: row;
+    outline: none;
 }
 
 .blockOfAlteredKeys

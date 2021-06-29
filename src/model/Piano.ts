@@ -1,5 +1,7 @@
-type Key = {
-    keyName: string;
+export type Keys = "C" | "CSharp" | "D" | "DSharp" | "E" | "F" | "FSharp" | "G" | "GSharp" | "A" | "ASharp" | "B";
+
+export type Key = {
+    keyName: Keys;
     keyType: "CLEARED" | "ALTERED";
     keyBind: string;
     sampleName: string;
@@ -86,3 +88,22 @@ export const Piano: Octave = {
             }
         ]
 };
+
+export type PianoApp =
+{
+    currentPressedKey: Keys | "None";
+}
+
+export type PianoAppAction<T> = {
+    type: string;
+    payload: T;
+};
+
+export type DispatchType<T> = (args: PianoAppAction<T>) => PianoAppAction<T>;
+
+export function setCurrentPressedKey(appState: PianoApp, key: Keys | "None"): PianoApp
+{
+    return {
+        currentPressedKey: key
+    }
+}
