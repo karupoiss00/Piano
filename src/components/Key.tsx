@@ -34,11 +34,15 @@ function Key(props: KeyProps) {
                         audio.play()
                     }
                 }
-                style={props.pressed ? {
-                    background: props.keyType === "CLEARED"
-                        ?  "linear-gradient(180deg, #FFFFFF 0%, #F3F3F3 100%)"
-                        :  "linear-gradient(180deg, #414141 0%, #020202 100%)"
-                } : {}}
+                style=
+                {
+                    props.pressed ?
+                        {
+                            background: props.keyType === "CLEARED"
+                            ?  "linear-gradient(180deg, #FFFFFF 0%, #F3F3F3 100%)"
+                            :  "linear-gradient(180deg, #414141 0%, #020202 100%)"
+                        } : {}
+                }
         >
             {props.playKey}
         </button>
