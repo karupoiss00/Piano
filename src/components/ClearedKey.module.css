@@ -15,6 +15,7 @@
     font: inherit;
     text-align: justify;
     margin-right: 6px;
+    user-select: none;
 }
 
 .ClearedKey:active

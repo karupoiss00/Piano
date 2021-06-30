@@ -13,6 +13,7 @@
     outline: none;
     border: none;
     font: inherit;
+    user-select: none;
 }
 
 .AlteredKey:active
